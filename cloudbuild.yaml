@@ -1,0 +1,11 @@
+
+steps:
+  - id: 'terraform init'
+    name: 'hashicorp/terraform:1.9.8'
+    script: terraform init
+  - id: 'terraform plan'
+    name: 'hashicorp/terraform:1.9.8'
+    script: terraform plan
+  - id: 'terraform apply'
+    name: 'hashicorp/terraform:1.9.8'
+    script: terraform apply --auto-approve
