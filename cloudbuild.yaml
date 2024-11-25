@@ -11,4 +11,4 @@ steps:
 
   - name: 'gcr.io/cloudbuild/docker'
     args: ['build', '-t', 'my-image', '.']
-  logsBucket: 'gs://gke-state-tf-poc-1' 
+logsBucket: 'gs://gke-state-tf-poc-1' 
